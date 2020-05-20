@@ -1,5 +1,4 @@
 require './human'
-require './animal'
 
 class Main
     def self.start
