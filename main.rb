@@ -11,7 +11,7 @@ require './human'
     suzuki.say
     suzuki.think
     sato.say
-    sato.think
+  
     # tanaka.say
     # tanaka.think
     # suzuki.say
