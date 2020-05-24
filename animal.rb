@@ -10,15 +10,15 @@ class Animal
     def say #出力を記述
         puts "#{self.name}です。#{self.age}歳です。"
         
-        # if self.age >= 25 && self.age < 30
-        #     puts "アラサーになりました。"
+        if self.age >= 25 && self.age < 30
+            puts "アラサーになりました。"
         
-        # elsif self.age >= 30
-        #     puts "いやーみなさんお若いですね。私は30超えていますから。"
+        elsif self.age >= 30
+            puts "いやーみなさんお若いですね。私は30超えていますから。"
       
-        # else self.age >= 20 && self.age < 25
-        #     puts "一番年下かもしれません。宜しくお願いします。"
-        # end
+        else self.age >= 20 && self.age < 25
+            puts "一番年下かもしれません。宜しくお願いします。"
+        end
     end
 end    
 
